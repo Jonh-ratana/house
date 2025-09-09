@@ -124,7 +124,7 @@ function Card({ images }) {
     </div>
   );
 }
-
+ 
 export default function New() {
   return (
     <div className="w-full my-3">
@@ -147,7 +147,7 @@ export default function New() {
 
             </div>
         </div>
-
+  
       {/* Cards */}
       <div className="w-full py-3 md:px-4 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
         <Card images={["/house/home1.png", "/house/home3.png", "/house/home2.png"]} />
