@@ -1,0 +1,75 @@
+house-rental/
+│── src/
+│   ├── assets/            
+│   ├── components/          
+│   │   ├── Navbar.jsx
+│   │   ├── Footer.jsx
+│   │   ├── SearchBar.jsx
+│   │   ├── HouseCard.jsx
+│   │   ├── HouseFilter.jsx
+│   │   ├── ContactForm.jsx
+│   │   └── ImageGallery.jsx
+│   │
+│   ├── pages/              
+│   │   ├── Home.jsx
+│   │   ├── Houses.jsx
+│   │   ├── HouseDetail.jsx
+│   │   ├── About.jsx
+│   │   └── Contact.jsx
+│   │
+│   ├── layouts/             
+│   │   └── MainLayout.jsx  
+│   │
+│   ├── admin/               
+│   │   ├── Dashboard.jsx
+│   │   ├── AddHouse.jsx
+│   │   ├── EditHouse.jsx
+│   │   └── HouseList.jsx
+│   │
+│   ├── routes/               
+│   │   └── AppRoutes.jsx
+│   │
+│   ├── context/             
+│   │   └── HouseContext.jsx
+│   │
+│   ├── services/             
+│   │   └── houseService.js
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+└── package.json
+
+
+
+29052004
+
+
+
+
+
+SchoolManagementApi/
+├── appsettings.json
+├── Program.cs
+├── SchoolManagementApi.csproj
+├── Controllers/
+│   ├── AdminController.cs
+│   ├── ClassesController.cs
+│   ├── StudentsController.cs
+│   ├── AttendanceController.cs
+├── Models/
+│   ├── Admin.cs
+│   ├── Classroom.cs
+│   ├── Student.cs
+│   ├── Attendance.cs
+├── Dtos/
+│   ├── LoginDto.cs
+│   ├── RegisterDto.cs
+│   ├── ClassroomDto.cs
+│   ├── StudentDto.cs
+│   ├── AttendanceDto.cs
+├── Services/
+│   ├── AuthService.cs
+├── Data/
+│   ├── AppDbContext.cs
